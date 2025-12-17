@@ -6,7 +6,7 @@ The point of this script is to avoid a mistake such as splitting a 8.5GB tarball
 
 resulting in millions of files. This bash script prints the size of the file in bytes, the size of the chunk in bytes and approximately
 
-how many files it will create. There is a rounding error in the number of files it creates +-1.
+how many files it will create. There is a rounding error in the number of files it reports will be creates +-1.
 
 The point of it is to print approximately how many files it will create so you can tell if it's going to create 1000s of files before it runs split.
 
