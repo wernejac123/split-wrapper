@@ -1,6 +1,6 @@
 split-wrapper:
 
-bash script wrapper for split
+bash script wrapper for the UNIX command split
 
 The point of this script is to avoid a mistake such as splitting a 8.5GB tarball into 3000 byte chunks instead of 3000 MB chunks,
 
